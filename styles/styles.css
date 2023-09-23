@@ -146,9 +146,16 @@ section {
   text-transform: uppercase;
 }
 
-.advantages-container {
+.advantages-item {
   display: grid;
+}
+
+.advantages-item-full {
   grid-template-columns: 400px 800px;
+}
+
+.advantages-item-revers {
+  grid-template-columns: 800px 400px;;
 }
 
 .list-reset {
