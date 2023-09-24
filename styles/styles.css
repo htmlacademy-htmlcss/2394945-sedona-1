@@ -1,12 +1,12 @@
 @font-face {
   font-family: PTSans;
-  src: url('../fonts/ptsans-400.woff2') format('woff2'); 
+  src: url('../fonts/ptsans-400.woff2') format('woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: PTSans;
-  src: url('../fonts/ptsans-700.woff2') format('woff2'); 
+  src: url('../fonts/ptsans-700.woff2') format('woff2');
   font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ body, h3, p, figure {
 }
 
 .site-list {
-  display: flex;  
+  display: flex;
   list-style-type: none;
   gap: 32px;
   margin: 0;
@@ -51,13 +51,13 @@ body, h3, p, figure {
 .site-list-item {
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px; 
+  line-height: 24px;
   padding: 20px 0;
 }
 
 .site-list-item-current {
   border-bottom: 2px solid #000000;
- 
+
 }
 
 .site-list-link {
@@ -93,7 +93,6 @@ body, h3, p, figure {
 }
 
 .button {
-  color: var(--texts-background-deafault, #FFF);
   text-align: center;
   border-radius: 4px;
   background: var(--buttons-basic, #756157);
@@ -146,8 +145,16 @@ section {
   text-transform: uppercase;
 }
 
+.advantages-list {
+  display: grid;
+  grid-template-areas: "c1 c1 c1"
+  "c2 c3 c4"
+  "c5 c5 c5";
+}
+
 .advantages-item {
   display: grid;
+  height: 385px;
 }
 
 .advantages-item-full {
@@ -155,11 +162,12 @@ section {
 }
 
 .advantages-item-revers {
-  grid-template-columns: 800px 400px;;
+  grid-template-columns: 800px 400px;
 }
 
 .list-reset {
   list-style-type: none;
+  padding: 0;
 }
 
 .advantages-content {
@@ -177,9 +185,24 @@ section {
   width: 60px;
 }
 
+.advantages-div-2 {
+  background-color: rgba(0, 0, 0, 0.30);
+  width: 60px;
+  height: 2px;
+  margin: 30px 0;
+}
+
 .advantages-content-1 {
   background-color: #82B3D3;
   color: #FFF;
+}
+
+.advantages-content-2 {
+ background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-content-3 {
+  background-color: rgba(131, 179, 211, 0.20);
 }
 
 .advantages-title {
@@ -191,4 +214,25 @@ section {
 
 .advantages-text {
   max-width: 230px;
+}
+
+.col-1 {
+  grid-area: c1;
+}
+
+.col-2 {
+  grid-area: c2;
+}
+
+.col-3 {
+  grid-area: c3;
+}
+
+
+.col-4 {
+  grid-area: c4;
+}
+
+.col-5 {
+  grid-area: c5;
 }
