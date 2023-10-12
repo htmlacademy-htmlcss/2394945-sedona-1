@@ -21,7 +21,7 @@
             </a>
           <ul class="site-list list-reset">
             <li class="site-list-item site-list-item-current">
-              <a class="site-list-link" href="index.html">Главная</a>
+              <a class="site-list-link" href="index.html" aria-current="page">Главная</a>
             </li>
             <li class="site-list-item">
               <a class="site-list-link" href="#">О Седоне</a>
@@ -41,14 +41,13 @@
             </li>
             <li class="user-item">
               <a class="user-link user-link-favorites" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
-                  <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z" fill="black"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none"> <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z" fill="black"/>
                 </svg>
                 <span class="user-favorites-num">12</span>
               </a>
             </li>
           </ul>
-          <a class="navigation-button button" href="#">Хочу сюда!</a>
+          <button class="popup-button" name="popup-button">Хочу сюда!</button>
         </nav>
       </header>
 
@@ -89,20 +88,20 @@
                 <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
             </li>
-            <li class="advantages-item col-4">
-              <div class="advantages-content advantages-content-2 ">
+            <li class="advantages-item">
+              <div class="advantages-content">
                 <h3 class="advantages-title">Мало <br>туристов</h3>
                 <p class="advantages-text">Большинство едет в Гранд Каньон и толпится там</p>
               </div>
             </li>
-            <li class="advantages-item advantages-item-revers col-5">
-              <figure class="advantages-image">
-                <img src="img/photo-2.jpg" alt="Фото моста Дьявола" width="800" height="384">
-              </figure>
-              <div class="advantages-content advantages-content-1">
+            <li class="advantages-item advantages-item-revers advantages-item-full">
+              <div class="advantages-content">
                 <h3 class="advantages-title">Там есть <br>Мост Дьявола</h3>
                 <p class="advantages-text">Да, по нему можно пройти!<br>Если вы осмелитесь, разумеется</p>
               </div>
+              <figure class="advantages-image">
+                <img src="img/photo-2.jpg" alt="Фото моста Дьявола" width="800" height="384">
+              </figure>
             </li>
           </ul>
         </section>
