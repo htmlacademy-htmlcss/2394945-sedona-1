@@ -140,6 +140,23 @@ width: 100%;
   border-bottom: 2px solid transparent;
 }
 
+.popup-button {
+  display: flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #756157;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
 .site-list-link-current {
   border-color: #756257;
 }
